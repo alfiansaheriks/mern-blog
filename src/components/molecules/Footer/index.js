@@ -1,5 +1,5 @@
 import React from 'react'
-import { IkonDiscord, IkonE, IkonFacebook, IkonGithub, IkonInstagram, IkonTelegram, IkonTwitter } from '../../../assets'
+import { DlbBg, IkonDiscord, IkonE, IkonFacebook, IkonGithub, IkonInstagram, IkonTelegram, IkonTwitter } from '../../../assets'
 import './footer.scss';
 
 const Icon = ({img}) => {
@@ -15,7 +15,7 @@ const Footer = () => {
     <div>
         <div className="footer">
             <div>
-                <img className="logo" src={IkonE} />
+                <img className="logo" src={DlbBg} />
             </div>
             <div className="social-wrapper">
                 <Icon img={IkonFacebook} />

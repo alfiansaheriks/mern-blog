@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Login, Register, Home, MainApp } from "../../pages";
+import { Login, Register, Home, MainApp, ListBlog } from "../../pages";
 
 const Navigasi = () => {
     return (
@@ -9,6 +9,7 @@ const Navigasi = () => {
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
                 <Route path="/*" element={<MainApp />} />
+                <Route path="/list-articles" element={<ListBlog />} />
             </Routes>
         </Router>
     );

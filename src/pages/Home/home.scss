@@ -1,25 +1,54 @@
 .home-page-wrapper {
     padding-top: 40px;
+
     .create-wrapper {
         width: 200px;
         margin-right: 0;
         margin-left: auto;
     }
+
     .content-wrapper {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
+
     .pagination {
         width: 400px;
         display: flex;
         margin: auto;
     }
+
     .text-page {
         font-size: 38px;
         width: 380px;
         text-align: center;
         font-weight: bold;
         margin: 0px;
+    }
+
+    .button-create {
+        display: inline-block;
+        margin-left: 10vh;
+        outline: 0;
+        appearance: none;
+        padding: 0px 12px;
+        border: 0px solid transparent;
+        border-radius: 4px;
+        text-decoration: none;
+        cursor: pointer;
+        background-color: rgb(92, 138, 255);
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 3px;
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        font-weight: 400;
+        height: 36px;
+        transition: all 150ms ease-in-out 0s;
+
+        :hover {
+            color: rgb(255, 255, 255);
+            background-color: rgb(17, 97, 73);
+            box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px, rgb(195 231 202) 0px 0px 0px 3px;
+        }
     }
 }

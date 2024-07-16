@@ -1,8 +1,9 @@
 .footer {
     display: flex;
+    border-top: 2px solid #000000;
     justify-content: space-between;
     align-items: center;
-    background-color: #67b35c;
+    background-color: #ffffff;
     padding: 20px 40px;
 
     .logo {
@@ -29,7 +30,7 @@
     }
 }
 .copyright {
-    background-color: #569e4b;
+    background-color: #ffffff;
     padding: 10px 0px;
     p{
         font-size: 14px;

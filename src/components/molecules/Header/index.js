@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.scss'
 import { useNavigate } from 'react-router-dom'
+import { IkonAkun, IkonLogout } from '../../../assets';
 
 const Header = () => {
   const navigate = useNavigate();
@@ -10,7 +11,7 @@ const Header = () => {
   return (
     <div className="header">
       <p className="logo-app">MERN-Blog</p>
-      <p className="menu-item" onClick={navigateLogout} >Logout</p>
+      <img className="menu-item" src={IkonAkun} />
     </div>
   )
 }
